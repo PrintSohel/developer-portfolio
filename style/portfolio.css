@@ -79,9 +79,10 @@ main {
 }
 
 /* about section style */
-section{
+section {
     margin-top: 100px;
 }
+
 .about {
     background: #FFF8F3;
     text-align: center;
@@ -147,3 +148,62 @@ section{
 }
 
 /* resume style */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.resume .description {
+    color: #757575;
+}
+
+.resumi-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* contact style */
+.contact .section-title {
+    text-align: left;
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 200px 100px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.section-description{
+
+}
+.contact{
+    text-decoration: none;
+}
